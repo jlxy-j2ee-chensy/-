@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgba(135, 207, 235, 0.1);
+}
+
+header {
+    min-height: 144px;
+}
+
+section {
+    min-height: 439px;
+}
+
+footer {
+    min-height: 98px;
+    clear: both;
+    color: lightgray;
+    font-size: 12px;
+}
+
+footer hr {
+    border: 1px dotted lightgray;
+}
+
+footer p {
+    margin-top: 4px;
+    margin-left: 8px;
+}
+
+
+/* 测试用边框 */
+
+
+/* header, section, footer {
+	border: 1px dotted;
+} */
+
+
+/* 内容居中 */
+
+.center {
+    margin: 0 auto;
+    max-width: 1000px;
+    height: 100%;
+}
+
+#top {
+    height: 24px;
+    line-height: 24px;
+    background-color: deepskyblue;
+    color: azure;
+}
+
+#top_left {
+    float: left;
+    font-size: 10px;
+}
+
+#top_right {
+    float: right;
+    font-size: 14px;
+}
+
+#header {
+    height: 96px;
+    background-image: url("title-bg.jpg");
+    background-size: cover;
+}
+
+#header .center {
+    background-image: url("title.jpg");
+    background-repeat: no-repeat;
+}
+
+#menu {
+    height: 24px;
+    background-color: deepskyblue;
+}
+
+#menu ul {
+    width: 100%;
+    display: table;
+    table-layout: fixed;
+}
+
+#menu li {
+    display: table-cell;
+    text-align: center;
+}
+
+#section1,
+#section2 {
+    margin: 24px auto;
+    width: 95%;
+    min-height: 180px;
+    overflow: hidden;
+}
+
+#news {
+    width: 48%;
+    min-height: 180px;
+    float: left;
+}
+
+#books {
+    width: 48%;
+    min-height: 180px;
+    float: right;
+}
+
+
+/* 测试用边框 */
+
+
+/* #section1,
+#news,
+#books {
+    border: 1px dotted;
+} */
+
+#search_div {
+    height: 36px;
+    width: 480px;
+    margin: 72px auto;
+}
+
+#search_txt {
+    height: 34px;
+    border: 1px skyblue solid;
+}
+
+#search_btn {
+    height: 36px;
+    border: 1px skyblue solid;
+}
+
+#search_txt {
+    float: left;
+    width: 412px;
+}
+
+#search_btn {
+    float: right;
+    width: 66px;
+}
+
+#section2 h3 {
+    margin-top: 24px;
+    margin-left: 24px;
+    margin-bottom: 4px;
+}
+
+#section2 ul {
+    margin-left: 48px;
+}
+
+#section2 table {
+    height: 96px;
+    margin-left: 24px;
+}
